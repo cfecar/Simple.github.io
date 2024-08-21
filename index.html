@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="conteiner">
+      <div class="header__content">
+        <a class="logo__link" href="#">
+          <img class="logo" src="/images/logo.svg" alt="logo">
+        </a>
+        <button class="header__burger-btn" id="burger">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="link">Продукция</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="link">Материалы</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="link">О нас</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__buttons">
+          <button class="header__button">
+            <img src="/images/search.svg" alt="">
+          </button>
+          <button class="header__button">
+            <img src="/images/log_in.svg" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="conteiner">
+      <div class="hero__content">
+        <div class="hero__info">
+          <h1 class="hero__taitel">
+            Простые вещи. Из бумаги
+          </h1>
+          <p class="text hero__text">
+            Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с
+            минеральными добавками.
+          </p>
+          <button class="button">
+            Каталог
+          </button>
+        </div>
+        <picture class="hero__img">
+          <source media="(max-width:570px)" srcset="images\hero3.png 2x">
+          <source media="(max-width:1000px)" srcset="images\hero2.png 1x">
+          <img src="/images/hero1.png" alt="">
+        </picture>
+      </div>
+    </div>
+  </section>
+  <section class="presentation">
+    <div class="conteiner">
+      <div class="presentation__content">
+        <div class="presentation__top">
+          <div class="presentation__version">
+            <img src="/images/presentation__version1.png" alt="" class="presentation__version-img">
+            <div class="presentation__version-conteiner">
+              <h3 class="presentation__version-title">V.1</h3>
+              <p class="presentation__version-text">
+                Результат вашего обучения
+              </p>
+            </div>
+          </div>
+          <div class="presentation__version">
+            <img src="/images/presentation__version2.png" alt="" class="presentation__version-img">
+            <div class="presentation__version-conteiner">
+              <h3 class="presentation__version-title">V.2</h3>
+              <p class="presentation__version-text">
+                Результат вашего обучения
+              </p>
+            </div>
+          </div>
+          <div class="presentation__version">
+            <img src="/images/presentation__version3.png" alt="" class="presentation__version-img">
+            <div class="presentation__version-conteiner">
+              <h3 class="presentation__version-title">V.3</h3>
+              <p class="presentation__version-text">
+                Результат вашего обучения
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="presentation__main">
+          <img src="/images/presentation__main.png" alt="" class="presentation__main-img ">
+          <div class="presentation__main-conteiner">
+            <h2 class="presentation__main-taitel">
+              Максимальная белизна
+            </h2>
+            <p class="presentation__main-text">
+              Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества:
+              мел, тальк, каолин и др. Эта операция называется наполнением.
+              Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является
+              непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cards">
+    <div class="conteiner">
+      <div class="cards__content">
+        <div class="card">
+          <img src="/images/card1.png" alt="" class="card__img">
+          <div class="card__container">
+            <h3 class="card__title">Упаковка</h3>
+            <small class="card__small-text">Тираж: от 50 штук</small>
+            <p class="card__text">
+              Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму
+              под заказ.
+            </p>
+            <a href="#" class="card__link">Подробнее</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/card2.png" alt="" class="card__img">
+          <div class="card__container">
+            <h3 class="card__title">Пакеты</h3>
+            <small class="card__small-text">Тираж: от 200 штук</small>
+            <p class="card__text">
+              С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки
+              и дизайн.
+            </p>
+            <a href="#" class="card__link">Подробнее</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/card3.png" alt="" class="card__img">
+          <div class="card__container">
+            <h3 class="card__title">Кейсы</h3>
+            <small class="card__small-text">Тираж: от 30 штук</small>
+            <p class="card__text">
+              Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная
+              бумага.
+            </p>
+            <a href="#" class="card__link">Подробнее</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/card4.png" alt="" class="card__img">
+          <div class="card__container">
+            <h3 class="card__title">Другие изделия </h3>
+            <small class="card__small-text">Тираж: от 100 штук</small>
+            <p class="card__text">
+              Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие
+              сроки.
+            </p>
+            <a href="#" class="card__link">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="companies">
+    <div class="conteiner">
+      <div class="companies__content">
+        <img src="/images/hahnemuehle-logo.svg" alt="" class="companies__img">
+        <img src="/images/canson-logo.svg" alt="" class="companies__img">
+        <img src="/images/royal-talens-bv-logo.svg" alt="" class="companies__img">
+        <img src="/images/fabriano-logo.svg" alt="" class="companies__img">
+      </div>
+    </div>
+  </section>
+  <section class="sketchbook">
+    <div class="conteiner">
+      <div class="sketchbook__content">
+        <div class="sketchbook__content-info">
+          <h3 class="sketchbook__content-taitl">Simple скетчбук</h3>
+          <p class="sketchbook__content-text">
+            80 листов, твердая обложка, бумага Fabriano 200 г/м2. Подойдет и для графики и для акварели. Для самых
+            смелых творческих замыслов!
+          </p>
+          <button class="button sketchbook__content-button">Купить</button>
+        </div>
+        <img src="/images/sketchbook-img.png" alt="" class="sketchbook__content-img">
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="conteiner">
+        <div class="footer__top-content">
+          <a href="#" class="link">
+            <img src="/images/foter-logo.svg" alt="" class="footer__logo">
+          </a>
+          <div class="footer__top-messengers">
+            <a href="#" class="link">
+              <img src="/images/Facebook.svg" alt="" class="footer-messenger">
+            </a>
+            <a href="#" class="link">
+              <img src="/images/x.svg" alt="" class="footer-messenger">
+            </a>
+            <a href="#" class="link">
+              <img src="/images/Instagram.svg" alt="" class="footer-messenger">
+            </a>
+            <a href="#" class="link">
+              <img src="/images/YouTube.svg" alt="" class="footer-messenger">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__botton">
+      <div class="conteiner">
+        <p class="footer__botton-text">
+          Simple <span class="sign">®</span> 2021
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
